@@ -134,6 +134,13 @@
       "date": "2007",
       "id": "iso-19139"
      },
+     "CSW2-ISO-AP": {
+      "href": "https://www.ogc.org/standards/cat",
+      "title": "OpenGIS Catalogue Services Specification 2.0.2 – ISO Metadata Application Profile",
+      "publisher": "OGC",
+      "date": "2007",
+      "id": "csw2-iso-ap"
+     },
      "LG-IPAGPS": {
       "href": "https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_121952_725_1.html",
       "title": "Linee Guida dell’Indice dei domicili digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi (IPA)",
@@ -12440,11 +12447,11 @@ seguito.</p>
 		 <section id="xml-[=schema=]">
 		 <h5>XML e schemi XSD</h5>
 			 <p>L’alimentazione e l’aggiornamento del [=Repertorio=] utilizzano il formato XML.</p>
-<p>Le regole di codifica XML utilizzate fanno riferimento allo Standard [[ISO-19139]] e alle Specifiche [CSW2 AP ISO].</p>
+<p>Le regole di codifica XML utilizzate fanno riferimento allo Standard [[ISO-19139]] e alle Specifiche [[?CSW2-ISO-AP]].</p>
 		 </section>
 		 <section id="submit">
 		 <h5>Trasmissione dei file XML</h5>
-			 <p>La trasmissione, al [=Repertorio=], dei file XML, contenenti i [=metadati=] relativi ai dati territoriali e ai servizi, prodotti dalle Pubbliche Amministrazioni in conformità agli schemi XSD di cui al paragrafo precedente e alle regole del presente documento, avviene attraverso i servizi di catalogo basati sullo standard CSW definito da OGC.</p>
+			 <p>La trasmissione, al [=Repertorio=], dei file XML, contenenti i [=metadati=] relativi ai dati territoriali e ai servizi, prodotti dalle Pubbliche Amministrazioni in conformità agli schemi XSD di cui al paragrafo precedente e alle regole del presente documento, avviene attraverso i servizi di catalogo basati sullo standard [[?CSW2-ISO-AP]].</p>
 <p>Le Amministrazioni Pubbliche che non dispongono di propri servizi di catalogo POSSONO avvalersi delle funzioni di utility (editor, caricamento, validazione) rese disponibili dal [=Repertorio=], per la compilazione e/o la trasmissione dei file. Tali funzionalità riguardano:
 	<ul>
 <li><strong>editor</strong>, strumento per l’acquisizione e l’aggiornamento dei [=metadati=] attraverso la compilazione di “form” guidate e conformi al modello di [=metadati=] del [=Repertorio=]. L’editor crea automaticamente un file XML conforme agli schemi XSD di cui al paragrafo 4.3.3.1;</li>
@@ -12482,8 +12489,8 @@ seguito.</p>
 	<h2>Elenco dei [=dati territoriali di interesse generale=]</h2>
 	<section class="introductory">
 	<h3>Introduzione</h3>
-		<p>Nelle tabelle che seguono sono elencati i dati di interesse generale (di cui all’articolo 59, comma 3, del decreto legislativo 7 marzo 2005, n. 82), con le relative definizioni, che le Amministrazioni titolari sono tenute a documentare nel [=Repertorio=] Nazionale dei Dati Territoriali secondo le regole tecniche definite nelle linee guida.</p>
-<p>Per ciascuna tipologia sono indicati anche i temi INSPIRE  e le categorie di argomento ISO 19115  associati.</p>
+		<p>Nelle tabelle che seguono sono elencati i dati di interesse generale (di cui all’articolo 59, comma 3, del [[CAD]]), con le relative definizioni, che le Amministrazioni titolari sono tenute a documentare nel [=Repertorio=] Nazionale dei Dati Territoriali secondo le regole tecniche definite nelle linee guida.</p>
+<p>Per ciascuna tipologia sono indicati anche i temi INSPIRE  e le categorie di argomento [[ISO-19115]] associati.</p>
 <p>L’elenco è organizzato in paragrafi con riferimento al cluster tematico di appartenenza definito nell’ambito di INSPIRE come raggruppamento dei temi di cui agli allegati della [=direttiva INSPIRE=]. Il primo paragrafo riporta i dati territoriali che fanno riferimento a più cluster tematici, mentre ciascun paragrafo successivo riporta i dati territoriali relativi ad uno specifico cluster tematico.</p>
 <p>L’elenco dei dati territoriali è pubblicato nel relativo registro disponibile nel Sistema di Registri INSPIRE Italia al seguente URL: <a href="https://registry.geodati.gov.it/rndt-all1">https://registry.geodati.gov.it/rndt-all1</a>.</p>
     </section>
@@ -12495,12 +12502,12 @@ seguito.</p>
 	<pre>Nel caso dell’ID con valore 37, il relativo URI nel registro è
 https://registry.geodati.gov.it/rndt-all1/rndt-all1-37</pre>
 				</aside>
-	Dovendo garantire la persistenza dell’URI, per le tipologie di dati definite nell’allegato 1 del decreto 10/11/2011 ancora valide viene mantenuto il valore dell’ID assegnato nell’allegato di cui sopra, anche se non progressivo. 
+	Dovendo garantire la persistenza dell’URI, per le tipologie di dati definite nell’allegato 1 del <a href="https://www.gazzettaufficiale.it/eli/id/2012/02/27/12A01801/sg">decreto 10/11/2011</a> ancora valide viene mantenuto il valore dell’ID assegnato nell’allegato di cui sopra, anche se non progressivo. 
 Per le tipologie di dati non più valide e, quindi, non incluse nel presente elenco, l’ID assegnato a suo tempo non è più utilizzato. In questo caso, l’URI corrispondente viene mantenuto nel registro con l’indicazione dello stato di non validità per quell’elemento. </li>
 <li><strong>Dati di interesse generale</strong> - Etichetta e definizione della tipologia di dato di interesse generale.</li>
 <li><strong>Tema INSPIRE</strong> - Categoria tematica di cui agli allegati I, II e III della [=direttiva INSPIRE=] di riferimento per la tipologia di dato. 
 Solo per il primo paragrafo, nella stessa colonna vengono indicati anche i cluster tematici che raggruppano i temi associati. Il nome della colonna in questo caso diventa quindi “Tema INSPIRE | Cluster tematico”. </li>
-<li><strong>Categoria ISO</strong> - Categoria di argomento definita nell’[=enumerazione=] MD_TopicCategoryCode di cui al paragrafo B.5.27 dello Standard ISO 19115 di riferimento per la tipologia di dato. La categoria ISO da associare è stata identificata sulla base della corrispondenza con i temi INSPIRE definita nel Regolamento (CE) n. 1285/2008.</li>
+<li><strong>Categoria ISO</strong> - Categoria di argomento definita nell’[=enumerazione=] MD_TopicCategoryCode di cui al paragrafo B.5.27 dello Standard [[ISO-19115]] di riferimento per la tipologia di dato. La categoria ISO da associare è stata identificata sulla base della corrispondenza con i temi INSPIRE definita nel Regolamento [[INSPIRE-MD-REG]].</li>
 		</ul>
 			</section>
 	<section>
